@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, shrink-to-fit=no"
+    />
+    <!-- Page title -->
+    <title>Keppel Electric</title>
+
+    <link rel="shortcut icon" href="img/ke-logo-fav.png" type="image/x-icon">
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+    />
+    <!-- Icon -->
+    <link
+      rel="stylesheet"
+      href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css"
+    />
+  </head>
+  <body>
+    <input type="checkbox" name="" id="menu-toggle" />
+    <!-- Sidebar starts -->
+    <div class="sidebar">
+      <!-- logo -->
+      <div class="brand">
+        <img src="img/ke_logo.png" class="main-logo" alt="Company Logo" />
+        <img src="img/ke-logo-fav.png" height="45" width="47.5" class="toggle-logo" alt="Company Logo" />
+      </div>
+      <div class="sidemenu">
+        <ul>
+          <li>
+            <a href="index.html" class="active button from-top">
+              <span class="las la-lightbulb"></span>
+              <span>Overview</span>
+            </a>
+          </li>
+          <li>
+            <a href="#" class="button from-left">
+              <span class="las la-receipt"></span>
+              <span>Bill &amp; Payments</span>
+            </a>
+          </li>
+          <li>
+            <a href="#" class="button from-right">
+              <span class="las la-cog"></span>
+              <span>Account Settings</span>
+            </a>
+          </li>
+          <li>
+            <a href="#" class="button from-bottom">
+              <span class="las la-sign-out-alt"></span>
+              <span>Logout</span>
+            </a>
+          </li>
+           
+          <!-- Sidebar Toggler (Sidebar) -->
+          <label for="menu-toggle" class="menu-toggle">
+            <span class="" id="sidebarToggle"></span>
+          </label>
+        </ul>
+      </div>
+    </div>
+    <!-- Sidebar ends -->
+
+    <!-- Main Content starts -->
+    <div class="main-content">
+      <!------------------- header starts ------------------->
+      <header>
+        <!-- Dropdown - Address Information -->
+        <div class="address nav-item dropdown mt-1">
+          <a
+            class="nav-link dropdown-toggle d-flex"
+            href="#"
+            id="addressDropdown"
+            role="button"
+            data-toggle="dropdown"
+            aria-haspopup="true"
+            aria-expanded="false"
+          >
+            <span class="las la-home mr-2"></span>
+            <div class="full-address">
+              <h6 class="mb-0 mt-2">HOME</h6>
+              <p class="small">40 Bedrock Avenue</p>
+            </div>
+          </a>
+          <!-- Dropdown - User Information -->
+          <div
+            id="address"
+            class="dropdown-menu dropdown-menu-right shadow animated--grow-in"
+            aria-labelledby="addressDropdown"
+          >
+            <a class="dropdown-item" href="#">
+              <i class="las la-home mr-2"></i>
+              Office 1
+            </a>
+            <a class="dropdown-item" href="#">
+              <i class="las la-home mr-2"></i>
+              Office 2
+            </a>
+          </div>
+        </div>
+        <!-- Dropdown - User Information -->
+        <div class="user nav-item dropdown">
+          <a
+            class="nav-link dropdown-toggle"
+            href="#"
+            id="userDropdown"
+            role="button"
+            data-toggle="dropdown"
+            aria-haspopup="true"
+            aria-expanded="false"
+          >
+            <img class="img-profile rounded-circle" src="img/user_photo.png" />
+            <span class="username ml-3 text-dark"
+              >Stefani Sun</span
+            >
+          </a>
+          <div
+            id="profile"
+            class="dropdown-menu dropdown-menu-right shadow animated--grow-in"
+            aria-labelledby="userDropdown"
+          >
+            <a class="dropdown-item" href="#">
+              <i class="las la-user fa-sm fa-fw mr-2 text-gray-400"></i>
+              Profile
+            </a>
+            <a class="dropdown-item" href="#">
+              <i class="las la-cogs fa-sm fa-fw mr-2 text-gray-400"></i>
+              Site Settings
+            </a>
+            <a class="dropdown-item" href="#">
+              <i class="las la-list fa-sm fa-fw mr-2 text-gray-400"></i>
+              Activity Log
+            </a>
+            <div class="dropdown-divider"></div>
+            <a
+              class="dropdown-item"
+              href="#"
+              data-toggle="modal"
+              data-target="#logoutModal"
+            >
+              <i class="las la-sign-out-alt fa-sm fa-fw mr-2 text-gray-400"></i>
+              Sign Out
+            </a>
+          </div>
+        </div>
+      </header>
+      <!------------------- header ends ------------------->
+      <!--  -->
+      <main>
+        <!-- row 1 -->
+        <section class="d-flex justify-content-between mt-4">
+          <h6 class="font-weight-bold">Overview</h6>
+          <a href="#" class="ticket">RAISE A TICKET</a>
+        </section>
+        <!-- row 2 -->
+        <!-- <section class="row p-2">
+          <div class="col-lg-8 col-md-6 card p-4 chart">
+            
+          </div>
+          <div class="col-lg-4 col-md-6 amount flex-column p-0 mb-0">
+            <div class="card">
+              <div class="card-body">
+                <p class="small">ELECTRICITY PLAN</p>
+                <h4>Fixed 36</h4>
+                <div class="card-bottom d-flex justify-content-between">
+                  <p class="small">ACCOUNT NO</p>
+                  <p class="small">VALIDITY</p>
+                </div>
+                <div class="card-bottom d-flex justify-content-between">
+                  <p class="small">85694112545</p>
+                  <p class="small">31-032021</p>
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-body">
+                <p class="small">ELECTRICITY PLAN</p>
+                <h4>Fixed 36</h4>
+                <div class="card-bottom d-flex justify-content-between">
+                  <p class="small">ACCOUNT NO</p>
+                  <p class="small">VALIDITY</p>
+                </div>
+                <div class="card-bottom d-flex justify-content-between">
+                  <p class="small">85694112545</p>
+                  <p class="small">31-032021</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section> -->
+        <!-- row 2 -->
+        <section>
+          <div class="row">
+            <!-- 1 -->
+            <div class="col-lg-8 col-md-6 zoomIn chartContainer container">
+              <div class="panel1 chart">
+                <canvas id="myChart"></canvas>
+              </div>
+            </div>
+            <!-- 2 -->
+            <div class="col-lg-4 col-md-6">
+              <div class="panel1 panel12 red-btn bounceInRight">
+                <p class="small text-white mb-0">ELECTRICITY PLAN</p>
+                <h4 class="yellow-color mt-3 mb-4">Fixed36</h4>
+                <div class="card-bottom d-flex justify-content-between mt-4">
+                  <p class="small text-resize black-mix-color font-weight-bold mb-0">ACCOUNT NO</p>
+                  <p class="small text-resize black-mix-color font-weight-bold mb-0">VALIDITY</p>
+                </div>
+                <div class="card-bottom d-flex justify-content-between mt-1">
+                  <p class="small text-white mb-0">85694112545</p>
+                  <p class="small text-white mb-0">31-032021</p>
+                </div>
+              </div>
+              <div class="panel1 panel12 yellow-btn bounceInRight">
+                <p class="small mb-0">OUTSTANDING AMOUNT</p>
+                <h4 class="red-color font-weight-bold mt-2 mb-3">$120.00</h4>
+                <p class="bill mb-3">Due Date: 29-03-2019</p>
+                <div class="card-bottom d-flex justify-content-between">
+                  <a href="#" class="pay-now black-mix-color">PAY NOW</a>
+                  <a href="" class="latest-bill">
+                    <img src="img/download.png" class="mr-1" alt="download button">
+                    LATEST BILL
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- row 3 -->
+        <section>
+          <div class="row">
+            <!-- 1 -->
+            <div class="col-lg-4 col-md-6 shake">
+              <div class="panel">
+                <h6 class="font-weight-bold red-color">SHARE & EARN</h6>
+                <div class="d-flex">
+                  <p class="para">
+                    Give your family & friends a <strong>$40 bill rebate</strong> and get rewarded with <strong>$25 referral credits</strong> for each successful referral.
+                  </p>
+                  <img src="img/image.png" height="120" alt="Refferal image">
+                </div>
+                <button type="button" class="btn btn-block red-btn">REFER A FRIEND</button>
+              </div>
+            </div>
+            <!-- 2 -->
+            <div class="col-lg-4 col-md-6 shake">
+              <div class="panel">
+                <small class="font-weight-bold">REFERRALS & REDEMPTIONS</small>
+                <div class="d-flex py-4">
+                  <div class="left col-md-6">
+                    <h6 class="font-weight-bold red-color text-center">$180.00</h6>
+                    <p class="para text-center">
+                      Total referral credit earned till date
+                    </p>
+                  </div>
+                  <div class="vl"></div>
+                  <div class="right col-md-6">
+                    <h6 class="font-weight-bold red-color text-center">$50.00</h6>
+                    <p class="para text-center">
+                      Available credit for redemtptions
+                    </p>
+                  </div>
+                </div>
+                <button type="button" class="btn btn-block yellow-btn">REDEEM</button>
+              </div>
+            </div>
+            <!-- 3 -->
+            <div class="col-lg-4 col-md-6 shake">
+              <div class="panel">
+                <small class="font-weight-bold">
+                  REDEMPTION HISTORY
+                </small>
+                <div class="d-flex justify-content-between mt-2">
+                  <small class="table-head">DATE</small>
+                  <small class="table-head">AMOUNT</small>
+                </div>
+                <div class="d-flex justify-content-between mt-2">
+                  <p class="para mb-0">01-11-019</p>
+                  <h6 class="red-color">$57</h6>
+                </div>
+                <hr class="mt-0">
+                <div class="d-flex justify-content-between">
+                  <p class="para mb-0">20-01-2020</p>
+                  <h6 class="red-color">$21</h6>
+                </div>
+                <hr class="mt-0">
+                <div class="d-flex justify-content-between">
+                  <p class="para mb-0">28-02-2020</p>
+                  <h6 class="red-color">$35</h6>
+                </div>
+                <hr class="mt-0">
+                <a href="#" class="view-all">
+                  <img src="img/eye.png" alt="">
+                  VIEW ALL
+                </a>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+      <!--  -->
+    </div>
+    <!-- Main Content ends -->
+
+    <!-- jquery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- bootstrap js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- chartJs cdn -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.7.0/chart.min.js"></script>
+    <!-- external js  -->
+    <script src="main.js"></script>
+    <script src="chart.js"></script>
+  </body>
+</html>
