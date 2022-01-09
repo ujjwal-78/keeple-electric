@@ -41,7 +41,6 @@ main .text-resize {
   left: 0;
   top: 0;
   position: fixed;
-  /* background: #1c1c1c; */
   width: 250px;
   overflow-y: auto;
   transition: width 300ms;
@@ -358,10 +357,6 @@ main .chart {
 main #myChart {
   max-height: 314px;
 }
-.card {
-  border-radius: 1rem !important;
-  padding-left: 20px !important;
-}
 
 main .panel1 {
   margin-bottom: 20px;
@@ -379,7 +374,7 @@ main .panel {
   background-color: #fff;
   border-radius: 1rem;
   padding: 1rem;
-  height: 248px;
+  height: 232px;
   box-shadow: 0 1px 1px rgb(0 0 0 / 5%);
 }
 main .panel .para {
@@ -413,7 +408,42 @@ main .panel12 {
 }
 
 /* media queries */
-@media only screen and (max-width: 768px) {
+@media only screen and (min-width: 1195px) and (max-width: 1284px) {
+  main .panel {
+    height: 248px !important;
+  }
+}
+@media only screen and (min-width: 1053px) and (max-width: 1090px) {
+  main .panel {
+    height: 237px !important;
+  }
+}
+@media only screen and (min-width: 1015px) and (max-width: 1052px) {
+  main .panel {
+    height: 246px !important;
+  }
+}
+@media only screen and (min-width: 992px) and (max-width: 1014px) {
+  main .panel {
+    height: 272px !important;
+  }
+}
+@media only screen and (min-width: 992px) and (max-width: 1000px) {
+  main .panel {
+    /* height: 248px; */
+  }
+  
+}
+@media only screen and (min-width: 992px) and (max-width: 1090px) {
+  main .panel {
+    /* height: 248px; */
+  }
+  main .panel .long-para {
+    font-size: 0.79em;
+  }
+}
+
+@media only screen and (max-width: 1284px) {
   .main-content {
     width: calc(100% - 3.5rem) !important;
     margin-left: 3.5rem !important;
@@ -472,6 +502,12 @@ main .panel12 {
   }
   #menu-toggle:checked ~ .main-content {
     margin-left: 3rem;
+  }
+}
+
+@media only screen and (max-width: 444px) {
+  main .panel .para {
+    font-size: 0.8em;
   }
 }
 

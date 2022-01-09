@@ -9,7 +9,7 @@
     />
     <!-- Page title -->
     <title>Keppel Electric</title>
-
+    <!-- favicon -->
     <link rel="shortcut icon" href="img/ke-logo-fav.png" type="image/x-icon">
 
     <!-- External CSS -->
@@ -27,13 +27,14 @@
   </head>
   <body>
     <input type="checkbox" name="" id="menu-toggle" />
-    <!-- Sidebar starts -->
+    <!--------------------------------------- Sidebar starts --------------------------------------->
     <div class="sidebar">
       <!-- logo -->
       <div class="brand">
         <img src="img/ke_logo.png" class="main-logo" alt="Company Logo" />
         <img src="img/ke-logo-fav.png" height="45" width="47.5" class="toggle-logo" alt="Company Logo" />
       </div>
+      <!-- sidemenu -->
       <div class="sidemenu">
         <ul>
           <li>
@@ -68,9 +69,9 @@
         </ul>
       </div>
     </div>
-    <!-- Sidebar ends -->
+    <!--------------------------------------- Sidebar ends --------------------------------------->
 
-    <!-- Main Content starts -->
+    <!--------------------------------------- Main Content starts --------------------------------------->
     <div class="main-content">
       <!------------------- header starts ------------------->
       <header>
@@ -154,54 +155,18 @@
         </div>
       </header>
       <!------------------- header ends ------------------->
-      <!--  -->
+      <!------------------- main starts ------------------->
       <main>
-        <!-- row 1 -->
+        <!-- row 1 / overview section -->
         <section class="d-flex justify-content-between mt-4">
           <h6 class="font-weight-bold">Overview</h6>
           <a href="#" class="ticket">RAISE A TICKET</a>
         </section>
-        <!-- row 2 -->
-        <!-- <section class="row p-2">
-          <div class="col-lg-8 col-md-6 card p-4 chart">
-            
-          </div>
-          <div class="col-lg-4 col-md-6 amount flex-column p-0 mb-0">
-            <div class="card">
-              <div class="card-body">
-                <p class="small">ELECTRICITY PLAN</p>
-                <h4>Fixed 36</h4>
-                <div class="card-bottom d-flex justify-content-between">
-                  <p class="small">ACCOUNT NO</p>
-                  <p class="small">VALIDITY</p>
-                </div>
-                <div class="card-bottom d-flex justify-content-between">
-                  <p class="small">85694112545</p>
-                  <p class="small">31-032021</p>
-                </div>
-              </div>
-            </div>
-            <div class="card">
-              <div class="card-body">
-                <p class="small">ELECTRICITY PLAN</p>
-                <h4>Fixed 36</h4>
-                <div class="card-bottom d-flex justify-content-between">
-                  <p class="small">ACCOUNT NO</p>
-                  <p class="small">VALIDITY</p>
-                </div>
-                <div class="card-bottom d-flex justify-content-between">
-                  <p class="small">85694112545</p>
-                  <p class="small">31-032021</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section> -->
-        <!-- row 2 -->
+        <!-- row 2 / chart section -->
         <section>
           <div class="row">
             <!-- 1 -->
-            <div class="col-lg-8 col-md-6 zoomIn chartContainer container">
+            <div class="col-lg-8 col-md-6 zoomIn chartContainer">
               <div class="panel1 chart">
                 <canvas id="myChart"></canvas>
               </div>
@@ -235,7 +200,7 @@
             </div>
           </div>
         </section>
-        <!-- row 3 -->
+        <!-- row 3 / panel-card section -->
         <section>
           <div class="row">
             <!-- 1 -->
@@ -243,12 +208,12 @@
               <div class="panel">
                 <h6 class="font-weight-bold red-color">SHARE & EARN</h6>
                 <div class="d-flex">
-                  <p class="para">
+                  <p class="para long-para mb-0">
                     Give your family & friends a <strong>$40 bill rebate</strong> and get rewarded with <strong>$25 referral credits</strong> for each successful referral.
                   </p>
                   <img src="img/image.png" height="120" alt="Refferal image">
                 </div>
-                <button type="button" class="btn btn-block red-btn">REFER A FRIEND</button>
+                <button type="button" class="btn btn-block red-btn mt-1">REFER A FRIEND</button>
               </div>
             </div>
             <!-- 2 -->
@@ -258,7 +223,7 @@
                 <div class="d-flex py-4">
                   <div class="left col-md-6">
                     <h6 class="font-weight-bold red-color text-center">$180.00</h6>
-                    <p class="para text-center">
+                    <p class="para text-center mb-0">
                       Total referral credit earned till date
                     </p>
                   </div>
@@ -279,7 +244,7 @@
                 <small class="font-weight-bold">
                   REDEMPTION HISTORY
                 </small>
-                <div class="d-flex justify-content-between mt-2">
+                <div class="d-flex justify-content-between mt-1">
                   <small class="table-head">DATE</small>
                   <small class="table-head">AMOUNT</small>
                 </div>
@@ -307,9 +272,9 @@
           </div>
         </section>
       </main>
-      <!--  -->
+      <!------------------- main ends ------------------->
     </div>
-    <!-- Main Content ends -->
+    <!--------------------------------------- Main Content ends --------------------------------------->
 
     <!-- jquery -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
